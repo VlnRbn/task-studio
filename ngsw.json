@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "https://vlnrbn.github.io/task-studio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vlnrbn.github.io/task-studio/app-main-app-main-module.js",
+        "https://vlnrbn.github.io/task-studio/favicon.ico",
+        "https://vlnrbn.github.io/task-studio/index.html",
+        "https://vlnrbn.github.io/task-studio/main.js",
+        "https://vlnrbn.github.io/task-studio/polyfills.js",
+        "https://vlnrbn.github.io/task-studio/runtime.js",
+        "https://vlnrbn.github.io/task-studio/styles.js",
+        "https://vlnrbn.github.io/task-studio/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-128x128.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-144x144.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-152x152.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-192x192.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-384x384.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-512x512.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-72x72.png",
+        "https://vlnrbn.github.io/task-studio/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vlnrbn.github.io/task-studio/app-main-app-main-module.js": "69a40db2859e86a6ad80e839e375a152e3bdef64",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://vlnrbn.github.io/task-studio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://vlnrbn.github.io/task-studio/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://vlnrbn.github.io/task-studio/index.html": "0289bc77035e5e0958d6456c83b72ae4bd041c44",
+    "https://vlnrbn.github.io/task-studio/main.js": "c9d1aa2553e25e6f8ff03d3461309287fe3309fb",
+    "https://vlnrbn.github.io/task-studio/polyfills.js": "b48dab52a5c5fb40355df18930933c56ac83b533",
+    "https://vlnrbn.github.io/task-studio/runtime.js": "8b9dc076b2af844d3a8f9165e8b69a2bee33bc46",
+    "https://vlnrbn.github.io/task-studio/styles.js": "581a3ca840709b8a20501db7b0bf18b7b537d175",
+    "https://vlnrbn.github.io/task-studio/vendor.js": "5d2d85a86a40c2b9c0ca41c029053f7946488034"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
